@@ -1,0 +1,451 @@
+body {
+  font-family: "Roboto", Helvetica, sans-serif !important;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  aside {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    width: 25%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+  }
+
+  aside .bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(47, 2, 51, 0.9);
+  }
+
+  aside a.person {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 30px 0;
+    position: relative;
+  }
+
+  aside a.person .person-avatar {
+    margin: 10px 0;
+  }
+
+  aside a.person .person-avatar img {
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+  }
+
+  aside a.person .details {
+    text-transform: uppercase;
+    color: white;
+  }
+
+  aside a.person .details .person-name {
+    font-size: 1.9em;
+    font-weight: 500;
+  }
+
+  aside a.person .details .person-title {
+    font-size: 1.1em;
+    margin-top: 0;
+  }
+
+  aside .content {
+    position: relative;
+    padding: 0 40px 45px;
+  }
+
+  aside nav {
+    line-height: 30px;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  aside nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  aside nav ul li {
+    position: relative;
+    margin: 0;
+    display: block;
+  }
+
+  aside nav ul li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }
+
+  aside nav ul li a i {
+    display: none !important;
+    margin-left: 6px;
+  }
+
+  aside nav ul li a:hover {
+    text-decoration: none;
+  }
+
+  aside nav ul li.active a:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 8px solid #fff;
+    bottom: 6px;
+    left: auto;
+    right: -40px;
+  }
+
+  aside nav ul li a:hover,
+  aside nav ul li.active a {
+    color: #fff;
+  }
+
+  aside nav ul li a:hover i,
+  aside nav ul li.active a i {
+    display: inline-block !important;
+  }
+
+  aside .social {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  aside .social .title {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: .75em;
+  }
+
+  aside .social .icons {
+    margin-top: 10px;
+  }
+
+  aside .social .icon {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 1.75em;
+    margin-right: 8px;
+  }
+
+  aside .social .icon:last-child {
+    margin-right: 0;
+  }
+
+  aside .social .icon:hover {
+    color: #fff;
+  }
+
+  body {
+    background-color: #f6f6f6 !important;
+    font-size: 16px;
+  }
+
+  .body {
+    margin-left: 25%;
+  }
+
+  .body:before {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    content: " ";
+    display: block;
+    width: 25%;
+    background: url(/img/left-background.jpg) top center no-repeat #bababa;
+    background-size: cover;
+  }
+
+  .body .site .inner {
+    background-color: #fff;
+    padding: 50px;
+  }
+
+  body.thinner .body .site .inner {
+    max-width: 850px;
+  }
+
+  body.normal .body h1:first-child {
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  body.normal .body h2 {
+    font-weight: 300;
+  }
+
+  body.normal .body h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(47, 2, 51, 0.9);
+  }
+
+  body.normal .body h3 .glyphicon {
+    position: relative;
+    top: 2px;
+  }
+
+  .h1-bonus {
+    font-size: 1em;
+    margin-top: 0;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .well h4 {
+    margin-top: 0;
+  }
+}
+
+.splash {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: url(/img/background.jpg) top center no-repeat #bababa;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  padding-left: 110px;
+  padding-top: 130px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+
+.splash .splash-inner {
+  max-width: 840px;
+  margin-left: 25%;
+}
+
+.splash .splash-inner h1 {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.splash .splash-inner h2 {
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.6;
+}
+
+.splash .splash-inner h3 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 1.25em;
+}
+
+.splash .splash-inner .buttons {
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.splash .splash-inner .buttons .btn {
+  background: rgba(47, 2, 51, 0.15);
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  margin-right: 20px;
+}
+
+.splash .splash-inner .buttons p:last-child {
+  margin-top: 20px;
+}
+
+.portfolio-timeline {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.portfolio-timeline .project {
+  margin-bottom: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-timeline .project .date {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  padding: 30px 15px;
+  color: #999;
+  text-align: right;
+  font-style: italic;
+  border-right: 1px solid #ddd;
+  padding-top: 0;
+  line-height: 1.5;
+}
+
+.portfolio-timeline .project .date:after {
+  content: " ";
+  position: absolute;
+  top: 43px;
+  right: -3px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #2f0233;
+}
+
+.portfolio-timeline .project .date time {
+  margin-top: 10px;
+  display: block;
+}
+
+.portfolio-timeline .project .date time.from,
+.portfolio-timeline .project .date time.to {
+  white-space: nowrap;
+}
+
+.portfolio-timeline .project .date time.from:before {
+  content: "from";
+  position: relative;
+  left: -3px;
+  top: -5px;
+  font-size: 9px;
+}
+
+.portfolio-timeline .project .date time.to:before {
+  content: "to";
+  position: relative;
+  left: -3px;
+  top: -5px;
+  font-size: 9px;
+}
+
+.portfolio-timeline .project .contents {
+  padding: 30px 0;
+  margin-left: 180px;
+  overflow: hidden;
+}
+
+.portfolio-timeline .project .contents:not(.-solo) .text {
+  width: 50%;
+  float: left;
+}
+
+.portfolio-timeline .project .contents .text .project-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.portfolio-timeline .project .contents .text .project-link .project-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: .3em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.portfolio-timeline .project .contents .text .project-link .project-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+}
+
+.portfolio-timeline .project .contents .text p {
+  margin: 1em 0;
+}
+
+.portfolio-timeline .project .contents .text .technologies {
+  margin-top: 30px;
+}
+
+.portfolio-timeline .project .contents .text .technologies .title {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #666;
+  padding-bottom: .5em;
+}
+
+.portfolio-timeline .project .contents .text .technologies .tech-icons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portfolio-timeline .project .contents .text .technologies .tech-icons li {
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.portfolio-timeline .project .contents .text .technologies .tech-icons li:not(:last-child) {
+  margin-right: 2px;
+}
+
+.portfolio-timeline .project .contents .text .technologies .tech-icons li i {
+  color: #2f0233;
+  opacity: .8;
+  font-size: 3rem;
+}
+
+.portfolio-timeline .project .contents .image {
+  width: 50%;
+  padding-left: 30px;
+  text-align: center;
+  float: left;
+}
+
+.portfolio-timeline .project .contents .image img {
+  max-height: 450px;
+  display: inline-block;
+}
+
+.portfolio-timeline .project:first-child .date time {
+  margin-top: 0;
+}
+
+.portfolio-timeline .project:first-child .date:after {
+  top: 9px;
+}
+
+.portfolio-timeline .project:first-child .contents {
+  padding-top: 0;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-bottom-20 {
+  margin-top: 20px;
+}
