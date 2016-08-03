@@ -18,7 +18,7 @@
 					<a href='/portfolio' class='btn btn-lg btn-default'>Portfolio</a>
 				</p>
 				<p>
-					<a href='/journal' class='btn btn-lg btn-default'>Journal</a>
+					<a href='/blog' class='btn btn-lg btn-default'>Journal</a>
 					<a href='/playground' class='btn btn-lg btn-default'>Playground</a>
 				</p>
 			</div>

@@ -1,7 +1,5 @@
 @extends('app')
 
-@section('body-class', 'normal')
-
 @section('content')
 
 	<h1>My Portfolio</h1>

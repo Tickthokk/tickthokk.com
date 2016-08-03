@@ -167,7 +167,7 @@ body.thinner {
 	}
 }
 
-body.normal {
+body:not(.splash) {
 	.body {
 		h1:first-child {
 			margin-top: 0;

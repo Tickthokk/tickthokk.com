@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use jorenvanhocht\Blogify\Traits\BlogifyUserTrait;
 
 class User extends Authenticatable
 {
+    use BlogifyUserTrait;
+
     /**
      * The attributes that are mass assignable.
      *

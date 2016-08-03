@@ -199,3 +199,22 @@
 		}
 	}
 }
+
+// Blog
+
+article.post {
+	border-left: 1px solid #ddd;
+	padding-left: 16px;
+	margin-left: 8px;
+	margin-bottom: 30px;
+}
+
+// #tags {
+// 	.tag {
+// 		&:not(:last-child) {
+// 			&:after {
+// 				content: ",";
+// 			}
+// 		}
+// 	}
+// }

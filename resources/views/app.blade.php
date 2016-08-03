@@ -66,7 +66,7 @@
 							<a href='/skills'>My Skills<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
-							<a href='/journal'>Dev Journal<i class='icon icon-angle-right'></i></a>
+							<a href='/blog'>Dev Journal<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
 							<a href='/playground'>Playground<i class='icon icon-angle-right'></i></a>
