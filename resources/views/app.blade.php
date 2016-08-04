@@ -64,23 +64,17 @@
 				<nav>
 					<ul>
 						{{--  class='active' --}}
-						<li>
+						<li class='{{ \Request::is('skills') ? 'active' : null }}'>
 							<a href='/skills'>My Skills<i class='icon icon-angle-right'></i></a>
+						</li>
+						<li class='{{ \Request::is('portfolio') ? 'active' : null }}'>
+							<a href='/portfolio'>Portfolio<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
 							<a href='{{ URL::route('journal') }}' target='_blank'>Dev Journal<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
 							<a href='{{ URL::route('playground') }}' target='_blank'>Playground<i class='icon icon-angle-right'></i></a>
-						</li>
-						<li>
-							<a href='/portfolio'>Portfolio<i class='icon icon-angle-right'></i></a>
-						</li>
-						<li>
-							<a href='/inspiration'>Inspiration<i class='icon icon-angle-right'></i></a>
-						</li>
-						<li>
-							<a href='/resume'>Resume<i class='icon icon-angle-right'></i></a>
 						</li>
 					</ul>
 				</nav>
