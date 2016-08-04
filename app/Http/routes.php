@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('contact', ['as' => 'contact', function() { return view('contact'); }]);
-Route::get('resume', ['as' => 'resume', function() { return view('resume'); }]);
-Route::get('portfolio', ['as' => 'portfolio', function() { return view('portfolio'); }]);
 Route::get('skills', ['as' => 'skills', function() { return view('skills'); }]);
+Route::get('journal', ['as' => 'journal', function() { return redirect('http://codepen.io/Tickthokk/posts/published/'); }]);
+Route::get('playground', ['as' => 'playground', function() { return redirect('http://codepen.io/Tickthokk/pens/public/'); }]);
+Route::get('portfolio', ['as' => 'portfolio', function() { return view('portfolio'); }]);
+Route::get('inspiration', ['as' => 'inspiration', function() { return view('inspiration'); }]);
+Route::get('resume', ['as' => 'resume', function() { return view('resume'); }]);
 Route::get('/', ['as' => 'home', function() { return view('home'); }]);

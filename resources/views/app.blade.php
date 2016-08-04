@@ -37,9 +37,11 @@
 
 		<link rel="stylesheet" href="{{ elixir('css/app.css') }}" />
 
-		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<script src="/js/vendor/modernizr-2.8.3.min.js"></script>
 
 		<script src="https://use.fonticons.com/8c7c85a6.js"></script>
+
+		@yield('css')
 
 	</head>
 	<body class='@yield('body-class', 'normal')'>
@@ -66,10 +68,10 @@
 							<a href='/skills'>My Skills<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
-							<a href='/blog'>Dev Journal<i class='icon icon-angle-right'></i></a>
+							<a href='{{ URL::route('journal') }}' target='_blank'>Dev Journal<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
-							<a href='/playground'>Playground<i class='icon icon-angle-right'></i></a>
+							<a href='{{ URL::route('playground') }}' target='_blank'>Playground<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
 							<a href='/portfolio'>Portfolio<i class='icon icon-angle-right'></i></a>
@@ -109,9 +111,10 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/plugins.js"></script>
+		<script src="/js/vendor/bootstrap.min.js"></script>
+		<script src="/js/plugins.js"></script>
 		<script src="{{ elixir('js/app.js') }}"></script>
+		@yield('js')
 
 		{{-- Google Analytics: change UA-XXXXX-X to be your site's ID. --}}
 		<script>

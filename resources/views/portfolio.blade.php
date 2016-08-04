@@ -47,6 +47,39 @@
 				</div>
 			</div>
 		</li>
+		{{-- Tickthokk.com --}}
+		<li class='project'>
+			<div class='date'>
+				<time class='from'>Aug 2016</time>
+				<time class='to'>Now</time>
+			</div>
+			<div class='contents'>
+				<div class='text'>
+					<a href='//tickthokk.com/' class='project-link' target='_blank'>
+						<div class='project-title'>Tickthokk.com</div>
+						<div class='project-subtitle'>Personal Portfolio Site</div>
+					</a>
+					<p>
+						You're on it!
+					</p>
+
+					<div class='technologies'>
+						<div class='title'>Technologies used</div>
+						<ul class='tech-icons'>
+							<li><i class='tech-icon-laravel' data-toggle='tooltip' title='Laravel'></i></li>
+							<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
+							<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
+							<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
+							<li><i class='tech-icon-css3' data-toggle='tooltip' title='CSS 3'></i></li>
+							<li><i class='tech-icon-html5' data-toggle='tooltip' title='HTML 5'></i></li>
+						</ul>
+					</div>
+				</div>
+				<div class='image'>
+					<img src='/img/portfolio/caas-preview.png' alt='Tickthokk.com' class='img-responsive'>
+				</div>
+			</div>
+		</li>
 		{{-- FFXIV --}}
 		<li class='project'>
 			<div class='date'>
