@@ -23,7 +23,7 @@
 		</p>
 
 		<p>
-			I love being involved in every step of a website's creation: from making sure every database table has appropriate indexes, to making sure every screen viewport looks great.
+			I love being involved in every step of a website's creation: from making sure a database table has its appropriate indexes, to making sure every screen viewport looks great.
 		</p>
 
 		<p class='margin-top-20'>
@@ -264,6 +264,7 @@
 					<span class='label label-info'>Ajax</span>
 					<span class='label label-info'>JSON</span>
 					<span class='label label-info'>Freemarker</span>
+					<span class='label label-info'>XPath</span>
 				</div>
 			</div>
 			<div class='row margin-bottom-20'>

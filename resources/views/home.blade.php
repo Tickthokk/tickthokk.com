@@ -17,10 +17,10 @@
 					<a href='/skills' class='btn btn-lg btn-default'>My Skills</a>
 					<a href='/portfolio' class='btn btn-lg btn-default'>Portfolio</a>
 				</p>
-				<p>
+				{{-- <p>
 					<a href='{{ URL::route('journal') }}' target='_blank'class='btn btn-lg btn-default'>Journal</a>
 					<a href='{{ URL::route('playground') }}' target='_blank'class='btn btn-lg btn-default'>Playground</a>
-				</p>
+				</p> --}}
 			</div>
 		</div>
 	</div>

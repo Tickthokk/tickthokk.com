@@ -39,6 +39,7 @@
 							<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
 							<li><i class='tech-icon-css3' data-toggle='tooltip' title='CSS 3'></i></li>
 							<li><i class='tech-icon-html5' data-toggle='tooltip' title='HTML 5'></i></li>
+							<li><i class='tech-icon-gulp' data-toggle='tooltip' title='Gulp'></i></li>
 						</ul>
 					</div>
 				</div>
@@ -76,7 +77,7 @@
 					</div>
 				</div>
 				<div class='image'>
-					<img src='/img/portfolio/caas-preview.png' alt='Tickthokk.com' class='img-responsive'>
+					<img src='/img/portfolio/tickthokk-preview.png' alt='Tickthokk.com' class='img-responsive'>
 				</div>
 			</div>
 		</li>
@@ -332,13 +333,14 @@
 						<div class='project-title'>Marketing Emails</div>
 					</span>
 					<p>
-						Still in the <code>&lt;table&gt;</code> era, email building can be grueling.  I made it a little easier by implementing a Grunt system that reads Assemble/Handlebar files, then inlines any css and prettify's the result.
+						Still in the <code>&lt;table&gt;</code> era, email building can be grueling.  I made it a little easier by implementing a Grunt system (later rewritten to Gulp) that reads Assemble/Handlebar files, then inlines any css and prettify's the result.
 					</p>
 
 					<div class='technologies'>
 						<div class='title'>Technologies used</div>
 						<ul class='tech-icons'>
 							<li><i class='tech-icon-grunt' data-toggle='tooltip' title='Grunt'></i></li>
+							<li><i class='tech-icon-gulp' data-toggle='tooltip' title='Gulp'></i></li>
 						</ul>
 					</div>
 				</div>
@@ -440,7 +442,7 @@
 						Starting in 2001 I had a personal project based in Perl and MySQL.  Realizing I loved developing, in 2003 I switched from a community college to ITT Tech under their Web Development program.  When I graduated in 2005 I started my professional career.  I jumped around every few years, taking on freelance work, and joining a startup.
 					</p>
 					<p>
-						Could I show you examples of work from this time period?  Sure.  Will I?  I'd rather not.  I hate code I built three years ago; why would I show you code I wrote over seven years ago!  Even scarier: things I had "designed" ten years ago, <strong role='button' data-toggle='popover' data-content='<img src="/img/portfolio/shudder.gif" width="220" height="163">' data-placement='top'>*shudder*</strong>.
+						Could I show you examples of work from this time period?  Sure, but I'd rather not.  I hate code I built three years ago; why would I show you code I wrote a decade ago!  Even scarier: there are things I had "designed" ten years ago, <strong role='button' data-toggle='popover' data-content='<img src="/img/portfolio/shudder.gif" width="220" height="163">' data-placement='top'>*shudder*</strong>.
 					</p>
 				</div>
 			</div>

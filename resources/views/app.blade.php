@@ -70,12 +70,12 @@
 						<li class='{{ \Request::is('portfolio') ? 'active' : null }}'>
 							<a href='/portfolio'>Portfolio<i class='icon icon-angle-right'></i></a>
 						</li>
-						<li>
+						{{-- <li>
 							<a href='{{ URL::route('journal') }}' target='_blank'>Dev Journal<i class='icon icon-angle-right'></i></a>
 						</li>
 						<li>
 							<a href='{{ URL::route('playground') }}' target='_blank'>Playground<i class='icon icon-angle-right'></i></a>
-						</li>
+						</li> --}}
 					</ul>
 				</nav>
 				<div class='social'>
