@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# OWNER
+
+	Nick Wright -- Web Developer -- @tickthokk
+
+# TECHNOLOGY COLOPHON
+
+	CSS3, HTML5
+	NGINX, jQuery, Modernizr, Normalize.css
+
+# CREATIVE COMMONS ATTRIBUTIONS
+
+	Designed with <3 by Xiaoying Riley for developers - https://themes.3rdwavemedia.com
