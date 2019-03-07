@@ -44,7 +44,7 @@
 					<li class="list-inline-item last-item"><a href="https://codepen.io/Tickthokk/"><i class="fab fa-codepen"></i></a></li>
 				</ul>
 			</div><!--//profile-->
-			<a class="btn btn-cta-primary float-right" href="mailto:tickthokk@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+			<a class="btn btn-cta-primary float-right" href="mailto:hey@nickwright.dev" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
 		</div><!--//container-->
 	</header><!--//header-->
 
@@ -539,10 +539,10 @@
 						<div class="content">
 							<ul class="list-unstyled">
 								<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Dayton, OH</li>
-								<li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">tickthokk@gmail.com</a></li>
+								<li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="hey@nickwright.dev">hey@nickwright.dev</a></li>
 								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://craftingasaservice.com">https://craftingasaservice.com</a></li>
 								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://ffxivcrafting.com">https://ffxivcrafting.com</a></li>
-								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://tickthokk.com">https://tickthokk.com</a></li>
+								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://nickwright.dev">https://nickwright.dev</a></li>
 							</ul>
 						</div><!--//content-->
 					</div><!--//section-inner-->
