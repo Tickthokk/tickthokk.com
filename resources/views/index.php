@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Nicholas Wright - Full Stack Web Developer</title>
+	<title>Nicholas Wright - Full Stack Engineer</title>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,10 +32,10 @@
 	<!-- ******HEADER****** -->
 	<header class="header">
 		<div class="container clearfix">
-			<img class="profile-image img-fluid float-left" src="images/profile.png" alt="Nick Wright">
+			<img class="profile-image img-fluid float-left" src="/images/profile.png" alt="Nick Wright">
 			<div class="profile-content float-left">
 				<h1 class="name">Nick Wright</h1>
-				<h2 class="desc">Full Stack Web Developer &amp; DevOps</h2>
+				<h2 class="desc">Full Stack Engineer &amp; DevOps</h2>
 				<ul class="social list-inline">
 					<li class="list-inline-item"><a href="https://twitter.com/tickthokk"><i class="fab fa-twitter"></i></a></li>
 					<li class="list-inline-item"><a href="https://www.linkedin.com/in/tickthokk/"><i class="fab fa-linkedin-in"></i></a></li>
@@ -62,62 +62,24 @@
 
 			   <section class="latest section">
 					<div class="section-inner">
-						<h2 class="heading">Latest Projects</h2>
+						<h2 class="heading">Latest Project</h2>
 						<div class="content">
-
-							<div class="item featured text-center">
-								<h3 class="title"><a href="https://craftingasaservice.com/" target="_blank">Crafting as a Service</a></h3>
-								<p class="summary">Crafting information and planning for <em>every</em> game!</p>
-								<div class="featured-image has-ribbon">
-									<a href="https://craftingasaservice.com/" target="_blank">
-									<img class="img-fluid project-image" src="images/projects/caas-preview.jpg" alt="Crafting as a Service">
-									</a>
-									<div class="ribbon">
-										<div class="text">New</div>
-									</div>
-								</div>
-
-								<div class="desc text-left">
-									<p>
-										<em>Domain currently redirects to an existing project.</em> Inspired from the specificity of <a href='http://ffxivcrafting.com/'>FFXIVCrafting.com</a>, CaaS will offer the same type of solution, but is a broader platform to support all games.
-									</p>
-									<p>
-										Currently in development, big plans await this project.
-									</p>
-								</div><!--//desc-->
-								<a class="btn btn-cta-secondary" href="https://patreon.com/craftingasaservice" target="_blank"><i class="fab fa-patreon"></i> Check out the Patreon page</a>
-
-								<div class='technologies mt-3'>
-									<ul class='tech-icons'>
-										<li><i class='tech-icon-laravel' data-toggle='tooltip' title='Laravel'></i></li>
-										<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
-										<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
-										<li><i class='tech-icon-mysql' data-toggle='tooltip' title='MySQL'></i></li>
-										<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime'></i></li>
-										<li><i class='tech-icon-jquery' data-toggle='tooltip' title='jQuery'></i></li>
-										<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
-										<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
-										<li><i class='tech-icon-css3' data-toggle='tooltip' title='CSS 3'></i></li>
-										<li><i class='tech-icon-html5' data-toggle='tooltip' title='HTML 5'></i></li>
-										<li><i class='tech-icon-gulp' data-toggle='tooltip' title='Gulp'></i></li>
-									</ul>
-								</div>
-							</div><!--//item-->
-							<hr class="divider">
-
 							<div class="item row">
 								<a class="col-md-4 col-12" href="https://ffxivcrafting.com/" target="_blank">
-								<img class="img-fluid project-image" src="images/projects/ffxivcrafting-preview.png" alt="FFXIVCrafting">
+									<img class="img-fluid project-image" src="/images/projects/ffxivcrafting-preview.png" alt="FFXIVCrafting">
 								</a>
 								<div class="desc col-md-8 col-12">
 									<h3 class="title"><a href="https://ffxivcrafting.com/" target="_blank">FFXIVCrafting - Crafting information and planning</a></h3>
 									<p class="mb-2">
-										Crafting items is a big part of the game.  My tool assists others to utilize their time wisely by organizing their crafting into steps.
+										Crafting items is a big part of the game. My tool assists others to utilize their time wisely by organizing their crafting into steps.
 									</p>
 									<p class="mb-2">
-										Started in September 2013 shortly after the game's 2.0 patch.  The community was very supportive and I've been updating it since.  Some users claim they can't live without it.
+										Started in September 2013 shortly after the game's 2.0 patch. The community was very supportive and I've been updating it since. Some users claim they can't live without it.
 									</p>
-									<p class='mb-2'><a class="more-link" href="https://ffxivcrafting.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit Tool</a> <a class="more-link ml-3" href="https://github.com/FFXIVCrafting/ffxivcrafting" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
+									<p class="mb-2">
+										Even though I don't play anymore, I keep it up to date as new patches are released.
+									</p>
+									<p class='mb-2'><a class="more-link" href="https://ffxivcrafting.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit Tool</a> <a class="more-link ml-3" href="https://github.com/CraftingAsAService/ffxivcrafting" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
 
 									<div class='technologies mt-3'>
 										<ul class='tech-icons'>
@@ -125,7 +87,7 @@
 											<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
 											<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
 											<li><i class='tech-icon-mysql' data-toggle='tooltip' title='MySQL'></i></li>
-											<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime'></i></li>
+											<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime Text'></i></li>
 											<li><i class='tech-icon-jquery' data-toggle='tooltip' title='jQuery'></i></li>
 											<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
 											<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
@@ -140,26 +102,48 @@
 					</div><!--//section-inner-->
 				</section><!--//section-->
 
-				<!-- <section class="projects section">
+			   <section class="section">
 					<div class="section-inner">
-						<h2 class="heading">Other Projects</h2>
+						<h2 class="heading">Project Showcase</h2>
 						<div class="content">
-							<div class="item">
-								<h3 class="title"><a href="https://ffxivcrafting.com/">FFXIVCrafting.com</a> <span class="badge badge-theme">Free</span></h3>
-								<p class="summary">
-									Crafting items is a big part of the game.  My tool assists others to utilize their time wisely by organizing their crafting into steps.
-								</p>
-								<p class="summary">
-									Started in September 2013 shortly after the game's 2.0 patch.  The community was very supportive and I've been updating it since.  Users donate on a regular basis, and some claim they can't live without it.
-								</p>
-								<p><a class="more-link" href="https://github.com/FFXIVCrafting/ffxivcrafting" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
-							</div>
+							<div class="item row">
+								<a class="col-md-4 col-12" href="https://ffxivcrafting.com/" target="_blank">
+									<img class="img-fluid project-image" src="/images/projects/craftingninja.svg" alt="Crafting Ninja">
+								</a>
+								<div class="desc col-md-8 col-12">
+									<h3 class="title">Crafting Ninja</h3>
 
-							<a class="btn btn-cta-secondary" href="https://codepen.io/Tickthokk/">More on CodePen <i class="fas fa-chevron-right"></i></a>
+									<div class="desc">
+										<p>
+											An abandoned Laravel project of mine that was going to take the concept of <a href='http://ffxivcrafting.com/'>FFXIVCrafting.com</a> and expand upon it as a broader platform to support all games.
+										</p>
+										<p>
+											This code is a beacon of how I develop: Clean code, self-utilized API, efficient Eloquent relationships, and built using TDD.
+										</p>
+										<p class='mb-2'><a class="more-link ml-3" href="https://github.com/CraftingAsAService/CraftingNinja" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
+									</div><!--//desc-->
 
-						</div>
-					</div>
-				</section> -->
+									<div class='technologies mt-3'>
+										<ul class='tech-icons'>
+											<li><i class='tech-icon-laravel' data-toggle='tooltip' title='Laravel'></i></li>
+											<li><i class='tech-icon-vue' data-toggle='tooltip' title='Bootstrap'></i></li>
+											<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
+											<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
+											<li><i class='tech-icon-mysql' data-toggle='tooltip' title='MySQL'></i></li>
+											<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime Text'></i></li>
+											<li><i class='tech-icon-jquery' data-toggle='tooltip' title='jQuery'></i></li>
+											<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
+											<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
+											<li><i class='tech-icon-css3' data-toggle='tooltip' title='CSS 3'></i></li>
+											<li><i class='tech-icon-html5' data-toggle='tooltip' title='HTML 5'></i></li>
+											<li><i class='tech-icon-gulp' data-toggle='tooltip' title='Gulp'></i></li>
+										</ul>
+									</div>
+								</div>
+							</div><!--//item-->
+						</div><!--//content-->
+					</div><!--//section-inner-->
+				</section><!--//section-->
 
 				<section class="experience section">
 					<div class="section-inner">
@@ -167,13 +151,40 @@
 						<div class="content">
 							<div class="item">
 								<h3 class='title'>
-									Web Developer III - <span class="place"><a href='https://legrand.us/'>Legrand</a></span> <span class="year">(2012 - Present)</span>
+									Senior Full Stack Engineer - <span class="place"><a href='https://legrand.us/'>Legrand</a></span> <span class="year">(2012 - Present)</span>
 								</h3>
+
+								<h4 class='title'>Back End</h4>
 								<ul class='mb-3'>
-									<li>Quickly became the resident expert in MySQL, filling a gap they were not aware existed</li>
+									<li>The Team Lead for anything Laravel, PHP or MySQL related</li>
+									<li>Maintained six Laravel applications, upgrading from versions 4 to 9 as they released</li>
+									<li>Transitioned all PHP applications from versions 5 to 8, including HHVM, as they released</li>
+									<li>Interfaced with a number of third party APIs, including Akamai and SendGrid</li>
+									<li>Built Unit Tests with automated testing to ensure code completion</li>
+								</ul>
+
+								<h4 class='title'>Front End</h4>
+								<ul class='mb-3'>
+									<li>A leader in CSS/JS methodologies amongst the team</li>
+									<li>Architected a CSS and JS module/loading system that increases pagespeed scores from ~30 to ~90</li>
+									<li>Successfully implemented a PWA with an offline page option</li>
+									<li>Implemented Accessibility changes to improve the lives of the disabled</li>
+									<li>Built Gulp build processes to improve developer quality of life in both asset-committed and src/dest codebases</li>
+								</ul>
+
+								<h4 class='title'>DevOps</h4>
+								<ul class='mb-3'>
+									<li>Built and Managed five Digital Ocean servers, home to 40 domains, 30 mysql schemas and 10 redis databases</li>
+									<li>Implemented zero downtime deployments via Deployer (PHP)</li>
+									<li>Rerouted traffic through CDNs, like Akamai and KeyCDN</li>
+									<li>Built and Managed an internal Vagrant development environment mimicing the production environment</li>
+									<li>Had a positive impact on developer quality of life with Mac/Linux relevant aliases and shortcuts</li>
+								</ul>
+
+								<h4 class='title'>In Short</h4>
+								<ul class='mb-3'>
+									<li>Developed and delivered customer facing web applications, primarily eCommerce</li>
 									<li>Worked with a team of developers who shared ideas constantly</li>
-									<li>Developed and delivered customer facing web applications</li>
-									<li>Maintained several domains and properties</li>
 								</ul>
 
 								<div class='technologies mb-3'>
@@ -193,12 +204,37 @@
 										<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
 										<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
 										<li><i class='tech-icon-shellscript' data-toggle='tooltip' title='Shell/Bash'></i></li>
-										<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime'></i></li>
+										<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime Text'></i></li>
 									</ul>
 								</div>
 
 								<details>
 									<summary>Expand for project details!</summary>
+
+									<div class='card mt-3'>
+										<div class='card-header'>
+											<strong class='text-muted'>
+												Connect.C2G.com
+											</strong>
+										</div>
+										<div class='card-body'>
+											<p>
+												A tool built to help end users find a solution to match their connectivity needs. My first big project with Legrand. Complicated MySQL queries power the formula to distinguish a cable's A and B ends, length, color, etc and present them to a user.
+											</p>
+										</div>
+										<div class='card-footer'>
+											<div class='technologies'>
+												<ul class='tech-icons'>
+													<li><i class='tech-icon-laravel' data-toggle='tooltip' title='Laravel'></i></li>
+													<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
+													<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
+													<li><i class='tech-icon-mysql' data-toggle='tooltip' title='MySQL'></i></li>
+													<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
+													<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
+												</ul>
+											</div>
+										</div>
+									</div>
 
 									<div class='card mt-3'>
 										<div class='card-header'>
@@ -211,7 +247,7 @@
 												As a primary focus to drive eCommerce, I implemented a responsive design suitable for all browsers and devices, even supporting IE8 until early 2017.
 											</p>
 											<p>
-												With a backend built on Java/SAP/CRM, interfacing with a separate team to deliver a great experience had it's own set of challenges.  We could not rely on a standard backend system or framework to do things for the frontend team.  I built a lot of PHP &amp; Linux backend customization to allow us to work on the front end.
+												With a backend built on Java/SAP/CRM, interfacing with a separate team to deliver a great experience had it's own set of challenges. We could not rely on a standard backend system or framework to do things for the frontend team. I built a lot of PHP &amp; Linux backend customization to allow us to work on the front end.
 											</p>
 										</div>
 										<div class='card-footer'>
@@ -219,7 +255,7 @@
 												<ul class='tech-icons'>
 													<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
 													<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
-													<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime'></i></li>
+													<li><i class='tech-icon-sublime' data-toggle='tooltip' title='Sublime Text'></i></li>
 													<li><i class='tech-icon-jquery' data-toggle='tooltip' title='jQuery'></i></li>
 													<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
 													<li><i class='tech-icon-css3' data-toggle='tooltip' title='CSS 3'></i></li>
@@ -227,77 +263,6 @@
 													<li><i class='tech-icon-shellscript' data-toggle='tooltip' title='Shell/Bash'></i></li>
 													<li><i class='tech-icon-gulp' data-toggle='tooltip' title='Gulp'></i></li>
 													<li><i class='tech-icon-github' data-toggle='tooltip' title='GitHub'></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
-									<div class='card mt-3'>
-										<div class='card-header'>
-											<strong class='text-muted'>
-												Blog.CablesToGo.com
-											</strong>
-										</div>
-										<div class='card-body'>
-											<p>
-												Built with Ghost.io this subdomain integrates with the primary site seamlessly.  As Ghost is a node based system, it only runs on Nginx.  All of our sites at the time were Apache, so I was challenged with having both running simultaneously.
-											</p>
-										</div>
-										<div class='card-footer'>
-											<div class='technologies'>
-												<ul class='tech-icons'>
-													<li><i class='tech-icon-nodejs' data-toggle='tooltip' title='NodeJS'></i></li>
-													<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
-													<li><i class='tech-icon-shellscript' data-toggle='tooltip' title='Shell/Bash'></i></li>
-													<li><i class='tech-icon-apache' data-toggle='tooltip' title='Apache'></i></li>
-													<li><i class='tech-icon-nginx' data-toggle='tooltip' title='Nginx'></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
-									<div class='card mt-3'>
-										<div class='card-header'>
-											<strong class='text-muted'>
-												Search.CablesToGo.com
-											</strong>
-										</div>
-										<div class='card-body'>
-											<p>
-												Interfacing with a third party (ThanxMedia) we were able to use Laravel to provide a search platform for the primary site.  Like the Blog, great lengths were taken to make it look and feel the same as the primary site.
-											</p>
-										</div>
-										<div class='card-footer'>
-											<div class='technologies'>
-												<ul class='tech-icons'>
-													<li><i class='tech-icon-laravel' data-toggle='tooltip' title='Laravel'></i></li>
-													<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
-													<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-
-									<div class='card mt-3'>
-										<div class='card-header'>
-											<strong class='text-muted'>
-												Connect.C2G.com
-											</strong>
-										</div>
-										<div class='card-body'>
-											<p>
-												A tool built to help end users find a solution to match their connectivity needs.  My first big project with Legrand.  Complicated MySQL queries power the formula to distinguish a cable's A and B ends, length, color, etc and present them to a user.
-											</p>
-										</div>
-										<div class='card-footer'>
-											<div class='technologies'>
-												<ul class='tech-icons'>
-													<li><i class='tech-icon-laravel' data-toggle='tooltip' title='Laravel'></i></li>
-													<li><i class='tech-icon-bootstrap' data-toggle='tooltip' title='Bootstrap'></i></li>
-													<li><i class='tech-icon-sass' data-toggle='tooltip' title='SASS'></i></li>
-													<li><i class='tech-icon-mysql' data-toggle='tooltip' title='MySQL'></i></li>
-													<li><i class='tech-icon-php' data-toggle='tooltip' title='PHP'></i></li>
-													<li><i class='tech-icon-redis' data-toggle='tooltip' title='Redis'></i></li>
 												</ul>
 											</div>
 										</div>
@@ -367,7 +332,7 @@
 										</div>
 										<div class='card-body'>
 											<p>
-												Whenever the Java backend team couldn't fulfill a need, Apps stepped in.  Primarily responding to Ajax calls, it also handled a pretty complicated Asset Versioning system triggered by a Git Hook whenever a pull request was closed.
+												Whenever the Java backend team couldn't fulfill a need, Apps stepped in. Primarily responding to Ajax calls, it also handled a pretty complicated Asset Versioning system triggered by a Git Hook whenever a pull request was closed.
 											</p>
 										</div>
 										<div class='card-footer'>
@@ -393,14 +358,14 @@
 											</p>
 
 											<p>
-												Still in the <code>&lt;table&gt;</code> era, email building can be grueling.  I made it a little easier by implementing a Grunt system (later rewritten to Gulp) that reads Assemble/Handlebar files, then inlines any css and prettify's the result.
+												Still in the <code>&lt;table&gt;</code> era, email building can be grueling. I made it a little easier by implementing a Grunt system (later rewritten to Gulp) that reads Assemble/Handlebar files, then inlines any css and prettify's the result.
 											</p>
 											<p>
 												<em>Documentation</em>
 											</p>
 
 											<p>
-												Any complicated system absolutely requires documentation.  Every system I implemented came with Documentation for my current and future coworkers.
+												Any complicated system absolutely requires documentation. Every system I implemented came with Documentation for my current and future coworkers.
 											</p>
 										</div>
 										<div class='card-footer'>
@@ -426,7 +391,7 @@
 									<li>Worked with a close-knit group to develop a web application based on a patent pending idea</li>
 									<li>Developed application to the point of marketability and provided customer support</li>
 									<li>Developed side projects which saved the company $20,000 a year</li>
-									<li>Continued to assist after end of employment, including server support and software related bug fixes</li>
+									<li>Continued to freelance with the company after end of employment, including server support and software related bug fixes</li>
 								</ul>
 
 								<div class='technologies mb-3'>
@@ -448,7 +413,7 @@
 										</div>
 										<div class='card-body'>
 											<p>
-												Essentially a startup, I worked directly with the Owner on a patent pending idea, I helped develop a system called Hive.  Embarrassingly, the system I invented was a "roll your own" framework.  You learn a lot when doing that, but in hindsight it was not a good idea.  MRCSupplies was both a separate business of the Owner and a customer of the Hive system, which at its core was an eCommerce system.
+												Essentially a startup, I worked directly with the Owner on a patent pending idea, I helped develop a system called Hive. Embarrassingly, the system I invented was a "roll your own" framework. You learn a lot when doing that, but in hindsight it was not a good idea. MRCSupplies was both a separate business of the Owner and a customer of the Hive system, which at its core was an eCommerce system.
 											</p>
 											<p>
 												Likewise with the backend framework there was no visual framework (like Bootstrap).
@@ -472,7 +437,7 @@
 										</div>
 										<div class='card-body'>
 											<p>
-												To support another piece of the Owner's business, this side project helped his reproduction graphics business get organized.  A lot of work involving FTP and user permissions were involved for a customer to manage their architecture bids.
+												To support another piece of the Owner's business, this side project helped his reproduction graphics business get organized. A lot of work involving FTP and user permissions were involved for a customer to manage their architecture bids.
 											</p>
 										</div>
 										<div class='card-footer'>
@@ -497,7 +462,7 @@
 									<li>Troubleshot and repaired legacy Visual Basic programs and Access databases</li>
 									<li>Rebuilt existing Visual Basic/Access programs as web applications</li>
 									<li>Created new internal web applications</li>
-									<li>Continued to assist company after end of employment</li>
+									<li>Continued to freelance with the company after end of employment</li>
 								</ul>
 							</div><!--//item-->
 
@@ -512,25 +477,17 @@
 							<div class="item">
 								<h3 class="title">The Dark Ages - Here There Be Dragons <span class='year'>(2001 - 2009)</span></h3>
 								<p>
-									Starting in 2001 I had a personal project based in Perl and MySQL.  Realizing I loved developing, in 2003 I switched from a community college to ITT Tech under their Web Development program.  When I graduated in 2005 I started my professional career.  I jumped around every few years, occassionally taking on freelance work, and joining a startup.
+									Starting in 2001 I had a personal project based in Perl and MySQL. Realizing I loved developing, in 2003 I switched from a community college to ITT Tech under their Web Development program. When I graduated in 2005 I started my professional career. I jumped around every few years, occassionally taking on freelance work, and joining a startup.
 								</p>
 								<p>
-									Could I show you examples of work from this time period?  Sure, but let's face it, I hate code I built three years ago; why would I want to display code I wrote a decade ago!  Even scarier: there are things I had "designed" ten years ago, <strong role='button' data-toggle='popover' data-content='<img src="/images/shudder.gif" width="220" height="163">' data-placement='top'>*shudder*</strong>.
+									Could I show you examples of work from this time period?  Sure, but let's face it, I hate code I built three years ago; why would I want to display code I wrote decades ago! Even scarier: there are things I had "designed" ten years ago, <strong role='button' data-toggle='popover' data-content='<img src="/images/shudder.gif" width="220" height="163">' data-placement='top'>*shudder*</strong>.
 								</p>
 							</div>
 
 							<a class="btn btn-cta-secondary" href="https://codepen.io/Tickthokk/">More Mini-Projects on CodePen <i class="fas fa-chevron-right"></i></a>
-
 						</div>
 					</div>
 				</section>
-				<section class="github section">
-					<div class="section-inner">
-						<h2 class="heading">My GitHub</h2>
-						<div id="github-graph" class="github-graph"></div>
-						<div id="ghfeed" class="ghfeed"></div>
-					</div><!--//secton-inner-->
-				</section><!--//section-->
 			</div><!--//primary-->
 			<div class="secondary col-lg-4 col-12">
 				 <aside class="info aside section">
@@ -540,7 +497,6 @@
 							<ul class="list-unstyled">
 								<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Dayton, OH</li>
 								<li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:hey@nickwright.dev">hey@nickwright.dev</a></li>
-								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://craftingasaservice.com">https://craftingasaservice.com</a></li>
 								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://ffxivcrafting.com">https://ffxivcrafting.com</a></li>
 								<li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://nickwright.dev">https://nickwright.dev</a></li>
 							</ul>
@@ -589,8 +545,6 @@
 										</div>
 									</div><!--//level-bar-->
 								</div><!--//item-->
-
-								<p><a class="more-link" href="https://coderwall.com/tickthokk"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p>
 							</div>
 						</div><!--//content-->
 					</div><!--//section-inner-->
@@ -609,6 +563,7 @@
 							<div>
 								<span class='badge badge-primary'>Git</span>
 								<span class='badge badge-primary'>Version Control</span>
+								<span class='badge badge-primary'>API</span>
 								<span class='badge badge-primary'>GitHub</span>
 								<span class='badge badge-primary'>BitBucket</span>
 								<span class='badge badge-primary'>GitLab</span>
@@ -622,15 +577,18 @@
 
 							<div>
 								<span class='badge badge-success'>PHP</span>
-								<span class='badge badge-success'>HHVM</span>
 								<span class='badge badge-success'>Laravel</span>
 								<span class='badge badge-success'>MVC</span>
 								<span class='badge badge-success'>MySQL</span>
+								<span class='badge badge-success'>SQLite</span>
+								<span class='badge badge-success'>Relational</span>
+								<span class='badge badge-success'>CTE</span>
+								<span class='badge badge-success'>Nested Sets</span>
 								<span class='badge badge-success'>Redis</span>
 								<span class='badge badge-success'>Memcached</span>
 								<span class='badge badge-success'>CDN</span>
 								<span class='badge badge-success'>RESTful</span>
-								<span class='badge badge-success'>API</span>
+								<span class='badge badge-success'>HHVM</span>
 								<span class='badge badge-success'>Data Mining</span>
 								<span class='badge badge-success'>CodeIgniter</span>
 							</div>
@@ -640,18 +598,21 @@
 							<div>
 								<span class='badge badge-info'>CSS3</span>
 								<span class='badge badge-info'>SASS</span>
+								<span class='badge badge-info'>LESS</span>
 								<span class='badge badge-info'>JavaScript</span>
+								<span class='badge badge-info'>Vue</span>
 								<span class='badge badge-info'>jQuery</span>
-								<span class='badge badge-info'>MooTools</span>
 								<span class='badge badge-info'>Responsive</span>
 								<span class='badge badge-info'>Bootstrap</span>
+								<span class='badge badge-info'>Tailwind</span>
 								<span class='badge badge-info'>Web Storage</span>
 								<span class='badge badge-info'>Font Icons</span>
+								<span class='badge badge-info'>WebP</span>
 								<span class='badge badge-info'>Mobile</span>
 								<span class='badge badge-info'>Responsive Emails</span>
 								<span class='badge badge-info'>Markdown</span>
 								<span class='badge badge-info'>Handlebars</span>
-								<span class='badge badge-info'>Grunt</span>
+								<span class='badge badge-info'>Vulpix</span>
 								<span class='badge badge-info'>Gulp</span>
 								<span class='badge badge-info'>Minification</span>
 								<span class='badge badge-info'>Compression</span>
@@ -670,11 +631,16 @@
 
 							<div>
 								<span class='badge badge-danger'>Bash shell</span>
-								<span class='badge badge-danger'>Apache</span>
 								<span class='badge badge-danger'>NGINX</span>
+								<span class='badge badge-danger'>Apache</span>
+								<span class='badge badge-danger'>HTTP/2</span>
+								<span class='badge badge-danger'>Brotli</span>
+								<span class='badge badge-danger'>Akamai</span>
+								<span class='badge badge-danger'>KeyCDN</span>
 								<span class='badge badge-danger'>Cloud Hosting</span>
+								<span class='badge badge-danger'>Digital Ocean</span>
+								<span class='badge badge-danger'>AWS</span>
 								<span class='badge badge-danger'>Rackspace</span>
-								<span class='badge badge-danger'>New Relic</span>
 								<span class='badge badge-danger'>Vagrant</span>
 								<span class='badge badge-danger'>Fail2Ban</span>
 							</div>
@@ -683,6 +649,7 @@
 
 							<div>
 								<span class='badge badge-default'>eCommerce</span>
+								<span class='badge badge-default'>LEMP</span>
 								<span class='badge badge-default'>LAMP</span>
 								<span class='badge badge-default'>Linux</span>
 								<span class='badge badge-default'>Mac</span>
@@ -690,7 +657,10 @@
 								<span class='badge badge-default'>Unicode</span>
 								<span class='badge badge-default'>Google Analytics</span>
 								<span class='badge badge-default'>Ghost.io</span>
+								<span class='badge badge-default'>SendGrid</span>
 								<span class='badge badge-default'>MailChimp</span>
+								<span class='badge badge-default'>SalesForce</span>
+								<span class='badge badge-default'>Pardot</span>
 							</div>
 
 						</div><!--//content-->
@@ -735,11 +705,6 @@
 	<script type="text/javascript" src="plugins/popper.min.js"></script>
 	<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-	<!-- github calendar plugin -->
-	<script type="text/javascript" src="plugins/github-calendar/dist/github-calendar.min.js"></script>
-	<!-- github activity plugin -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-	<script type="text/javascript" src="plugins/github-activity/github-activity-0.1.5.min.js"></script>
 	<!-- custom js -->
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
